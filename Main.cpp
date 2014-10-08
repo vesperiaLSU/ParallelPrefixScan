@@ -19,10 +19,6 @@
 
 using namespace std;
 
-int add(int x, int y){
-    return x+y;
-}
-
 int main(){
     vector<TreeNode> initial_main_nodes;                    //store initial input generated from main thread
     vector<vector<TreeNode>> initial_partial_inputs;   //store the vector of initial inputs generated from each thread
